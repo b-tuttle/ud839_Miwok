@@ -18,13 +18,13 @@ public class Word {
     /**
      * Create a new Word object.
      *
-     * @param defaultTranslation is the word in a language that the user is already familiar with
-     *                           (such as English)
-     * @param miwokTranslation   is the word in the Miwok language
+     * @param mDefaultTranslation is the word in a language that the user is already familiar with
+     *                            (such as English)
+     * @param mMiwokTranslation   is the word in the Miwok language
      */
-    public Word(String defaultTranslation, String miwokTranslation) {
-        defaultTranslation = mDefaultTranslation;
-        miwokTranslation = mMiwokTranslation;
+    public Word(String mDefaultTranslation, String mMiwokTranslation) {
+        this.mDefaultTranslation = mDefaultTranslation;
+        this.mMiwokTranslation = mMiwokTranslation;
     }
 
     /**
